@@ -7,18 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F75C3C229D5DE60008A69A4 /* UbicacionesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75C3C129D5DE60008A69A4 /* UbicacionesViewModel.swift */; };
+		4F75C3C529D5E01C008A69A4 /* Ubicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75C3C429D5E01C008A69A4 /* Ubicacion.swift */; };
+		4F75C3CA29D5E589008A69A4 /* UbicacionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75C3C929D5E589008A69A4 /* UbicacionesView.swift */; };
+		4F75C3CC29D5EC10008A69A4 /* EstructurasEpisodios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75C3CB29D5EC10008A69A4 /* EstructurasEpisodios.swift */; };
+		4F75C3CE29D5ED38008A69A4 /* EpisodiosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75C3CD29D5ED38008A69A4 /* EpisodiosService.swift */; };
+		4F75C3D229D5EDD0008A69A4 /* Episodio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75C3D129D5EDD0008A69A4 /* Episodio.swift */; };
+		4F75C3D429D5EEA0008A69A4 /* EpisodiosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75C3D329D5EEA0008A69A4 /* EpisodiosViewModel.swift */; };
+		4F75C3D729D5FCDE008A69A4 /* EpisodiosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75C3D629D5FCDE008A69A4 /* EpisodiosView.swift */; };
+		4FC6974029D3219B0024BA6A /* PersonajeViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6973F29D3219B0024BA6A /* PersonajeViewDetail.swift */; };
+		4FC7850B29D1E2BF00BF199D /* PersonajesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7850A29D1E2BF00BF199D /* PersonajesView.swift */; };
+		4FC7850D29D1E6F000BF199D /* CardPersonajeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7850C29D1E6F000BF199D /* CardPersonajeView.swift */; };
+		4FD4BEB329D7097E0012A1BC /* EpisodioCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD4BEB229D7097E0012A1BC /* EpisodioCardView.swift */; };
+		4FD4BEB529D71C800012A1BC /* UbicacionesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD4BEB429D71C800012A1BC /* UbicacionesCardView.swift */; };
+		4FE535A829CCA7280094F7DA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4FE535A729CCA7280094F7DA /* Alamofire */; };
+		4FE535AC29CCA80D0094F7DA /* PersonajeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE535AB29CCA80D0094F7DA /* PersonajeService.swift */; };
+		4FE535B029CCB58C0094F7DA /* Personaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE535AF29CCB58C0094F7DA /* Personaje.swift */; };
+		4FE535B229CCBAF50094F7DA /* EstructurasPersonaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE535B129CCBAF50094F7DA /* EstructurasPersonaje.swift */; };
+		4FEA034829D5D886004366BE /* EstructurasUbicaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA034729D5D886004366BE /* EstructurasUbicaciones.swift */; };
+		4FEA034A29D5D8F3004366BE /* UbicacionesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA034929D5D8F3004366BE /* UbicacionesService.swift */; };
 		4FFD8A1A29CA04F200317745 /* Rick_MortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD8A1929CA04F200317745 /* Rick_MortyApp.swift */; };
 		4FFD8A1C29CA04F200317745 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD8A1B29CA04F200317745 /* ContentView.swift */; };
 		4FFD8A1E29CA04F300317745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFD8A1D29CA04F300317745 /* Assets.xcassets */; };
 		4FFD8A2129CA04F300317745 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFD8A2029CA04F300317745 /* Preview Assets.xcassets */; };
+		4FFD8A3529CA180600317745 /* PersonajeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD8A3429CA180600317745 /* PersonajeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F75C3C129D5DE60008A69A4 /* UbicacionesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbicacionesViewModel.swift; sourceTree = "<group>"; };
+		4F75C3C429D5E01C008A69A4 /* Ubicacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ubicacion.swift; sourceTree = "<group>"; };
+		4F75C3C929D5E589008A69A4 /* UbicacionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbicacionesView.swift; sourceTree = "<group>"; };
+		4F75C3CB29D5EC10008A69A4 /* EstructurasEpisodios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstructurasEpisodios.swift; sourceTree = "<group>"; };
+		4F75C3CD29D5ED38008A69A4 /* EpisodiosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodiosService.swift; sourceTree = "<group>"; };
+		4F75C3D129D5EDD0008A69A4 /* Episodio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episodio.swift; sourceTree = "<group>"; };
+		4F75C3D329D5EEA0008A69A4 /* EpisodiosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodiosViewModel.swift; sourceTree = "<group>"; };
+		4F75C3D629D5FCDE008A69A4 /* EpisodiosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodiosView.swift; sourceTree = "<group>"; };
+		4FC6973F29D3219B0024BA6A /* PersonajeViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonajeViewDetail.swift; sourceTree = "<group>"; };
+		4FC7850A29D1E2BF00BF199D /* PersonajesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonajesView.swift; sourceTree = "<group>"; };
+		4FC7850C29D1E6F000BF199D /* CardPersonajeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPersonajeView.swift; sourceTree = "<group>"; };
+		4FD4BEB229D7097E0012A1BC /* EpisodioCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodioCardView.swift; sourceTree = "<group>"; };
+		4FD4BEB429D71C800012A1BC /* UbicacionesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbicacionesCardView.swift; sourceTree = "<group>"; };
+		4FE535AB29CCA80D0094F7DA /* PersonajeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonajeService.swift; sourceTree = "<group>"; };
+		4FE535AF29CCB58C0094F7DA /* Personaje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personaje.swift; sourceTree = "<group>"; };
+		4FE535B129CCBAF50094F7DA /* EstructurasPersonaje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstructurasPersonaje.swift; sourceTree = "<group>"; };
+		4FEA034729D5D886004366BE /* EstructurasUbicaciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstructurasUbicaciones.swift; sourceTree = "<group>"; };
+		4FEA034929D5D8F3004366BE /* UbicacionesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbicacionesService.swift; sourceTree = "<group>"; };
 		4FFD8A1629CA04F200317745 /* Rick&Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick&Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFD8A1929CA04F200317745 /* Rick_MortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_MortyApp.swift; sourceTree = "<group>"; };
 		4FFD8A1B29CA04F200317745 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4FFD8A1D29CA04F300317745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FFD8A2029CA04F300317745 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FFD8A3429CA180600317745 /* PersonajeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonajeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +65,116 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FE535A829CCA7280094F7DA /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F75C3C029D5DE43008A69A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4F75C3C129D5DE60008A69A4 /* UbicacionesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4F75C3C329D5E008008A69A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F75C3C429D5E01C008A69A4 /* Ubicacion.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F75C3C629D5E548008A69A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F75C3C929D5E589008A69A4 /* UbicacionesView.swift */,
+				4FD4BEB429D71C800012A1BC /* UbicacionesCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F75C3CF29D5EDB8008A69A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4F75C3D329D5EEA0008A69A4 /* EpisodiosViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4F75C3D029D5EDC0008A69A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F75C3D129D5EDD0008A69A4 /* Episodio.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F75C3D529D5FCC8008A69A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F75C3D629D5FCDE008A69A4 /* EpisodiosView.swift */,
+				4FD4BEB229D7097E0012A1BC /* EpisodioCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FEA034129D5CE92004366BE /* PersonajesService */ = {
+			isa = PBXGroup;
+			children = (
+				4FE535B129CCBAF50094F7DA /* EstructurasPersonaje.swift */,
+				4FE535AB29CCA80D0094F7DA /* PersonajeService.swift */,
+			);
+			path = PersonajesService;
+			sourceTree = "<group>";
+		};
+		4FEA034229D5CEAB004366BE /* UbicacionesService */ = {
+			isa = PBXGroup;
+			children = (
+				4FEA034729D5D886004366BE /* EstructurasUbicaciones.swift */,
+				4FEA034929D5D8F3004366BE /* UbicacionesService.swift */,
+			);
+			path = UbicacionesService;
+			sourceTree = "<group>";
+		};
+		4FEA034329D5CEB6004366BE /* EpisodiosService */ = {
+			isa = PBXGroup;
+			children = (
+				4F75C3CB29D5EC10008A69A4 /* EstructurasEpisodios.swift */,
+				4F75C3CD29D5ED38008A69A4 /* EpisodiosService.swift */,
+			);
+			path = EpisodiosService;
+			sourceTree = "<group>";
+		};
+		4FEA034429D5CEC9004366BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6973F29D3219B0024BA6A /* PersonajeViewDetail.swift */,
+				4FC7850C29D1E6F000BF199D /* CardPersonajeView.swift */,
+				4FC7850A29D1E2BF00BF199D /* PersonajesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FEA034529D5CECE004366BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FE535AF29CCB58C0094F7DA /* Personaje.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4FEA034629D5CED4004366BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4FFD8A3429CA180600317745 /* PersonajeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		4FFD8A0D29CA04F200317745 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +194,8 @@
 		4FFD8A1829CA04F200317745 /* Rick&Morty */ = {
 			isa = PBXGroup;
 			children = (
+				4FFD8A2D29CA068F00317745 /* Services */,
+				4FFD8A2729CA062700317745 /* Scenes */,
 				4FFD8A1929CA04F200317745 /* Rick_MortyApp.swift */,
 				4FFD8A1B29CA04F200317745 /* ContentView.swift */,
 				4FFD8A1D29CA04F300317745 /* Assets.xcassets */,
@@ -65,6 +210,56 @@
 				4FFD8A2029CA04F300317745 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FFD8A2729CA062700317745 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4FFD8A2B29CA066A00317745 /* Episodios */,
+				4FFD8A2A29CA065B00317745 /* Ubicaciones */,
+				4FFD8A2829CA064400317745 /* Personajes */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4FFD8A2829CA064400317745 /* Personajes */ = {
+			isa = PBXGroup;
+			children = (
+				4FEA034629D5CED4004366BE /* ViewModel */,
+				4FEA034529D5CECE004366BE /* Model */,
+				4FEA034429D5CEC9004366BE /* View */,
+			);
+			path = Personajes;
+			sourceTree = "<group>";
+		};
+		4FFD8A2A29CA065B00317745 /* Ubicaciones */ = {
+			isa = PBXGroup;
+			children = (
+				4F75C3C629D5E548008A69A4 /* View */,
+				4F75C3C329D5E008008A69A4 /* Model */,
+				4F75C3C029D5DE43008A69A4 /* ViewModel */,
+			);
+			path = Ubicaciones;
+			sourceTree = "<group>";
+		};
+		4FFD8A2B29CA066A00317745 /* Episodios */ = {
+			isa = PBXGroup;
+			children = (
+				4F75C3D529D5FCC8008A69A4 /* View */,
+				4F75C3D029D5EDC0008A69A4 /* Model */,
+				4F75C3CF29D5EDB8008A69A4 /* ViewModel */,
+			);
+			path = Episodios;
+			sourceTree = "<group>";
+		};
+		4FFD8A2D29CA068F00317745 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4FEA034329D5CEB6004366BE /* EpisodiosService */,
+				4FEA034229D5CEAB004366BE /* UbicacionesService */,
+				4FEA034129D5CE92004366BE /* PersonajesService */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +278,9 @@
 			dependencies = (
 			);
 			name = "Rick&Morty";
+			packageProductDependencies = (
+				4FE535A729CCA7280094F7DA /* Alamofire */,
+			);
 			productName = "Rick&Morty";
 			productReference = 4FFD8A1629CA04F200317745 /* Rick&Morty.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +309,9 @@
 				Base,
 			);
 			mainGroup = 4FFD8A0D29CA04F200317745;
+			packageReferences = (
+				4FE535A629CCA7280094F7DA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 4FFD8A1729CA04F200317745 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +339,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FFD8A1C29CA04F200317745 /* ContentView.swift in Sources */,
+				4F75C3CE29D5ED38008A69A4 /* EpisodiosService.swift in Sources */,
+				4FD4BEB329D7097E0012A1BC /* EpisodioCardView.swift in Sources */,
+				4FFD8A3529CA180600317745 /* PersonajeViewModel.swift in Sources */,
+				4FC6974029D3219B0024BA6A /* PersonajeViewDetail.swift in Sources */,
+				4F75C3D729D5FCDE008A69A4 /* EpisodiosView.swift in Sources */,
+				4F75C3D429D5EEA0008A69A4 /* EpisodiosViewModel.swift in Sources */,
+				4FE535B229CCBAF50094F7DA /* EstructurasPersonaje.swift in Sources */,
+				4FE535B029CCB58C0094F7DA /* Personaje.swift in Sources */,
+				4FD4BEB529D71C800012A1BC /* UbicacionesCardView.swift in Sources */,
+				4FE535AC29CCA80D0094F7DA /* PersonajeService.swift in Sources */,
 				4FFD8A1A29CA04F200317745 /* Rick_MortyApp.swift in Sources */,
+				4FEA034829D5D886004366BE /* EstructurasUbicaciones.swift in Sources */,
+				4FC7850D29D1E6F000BF199D /* CardPersonajeView.swift in Sources */,
+				4F75C3D229D5EDD0008A69A4 /* Episodio.swift in Sources */,
+				4FEA034A29D5D8F3004366BE /* UbicacionesService.swift in Sources */,
+				4F75C3CA29D5E589008A69A4 /* UbicacionesView.swift in Sources */,
+				4F75C3C529D5E01C008A69A4 /* Ubicacion.swift in Sources */,
+				4F75C3CC29D5EC10008A69A4 /* EstructurasEpisodios.swift in Sources */,
+				4F75C3C229D5DE60008A69A4 /* UbicacionesViewModel.swift in Sources */,
+				4FC7850B29D1E2BF00BF199D /* PersonajesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +559,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FE535A629CCA7280094F7DA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FE535A729CCA7280094F7DA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FE535A629CCA7280094F7DA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4FFD8A0E29CA04F200317745 /* Project object */;
 }
